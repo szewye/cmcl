@@ -42432,7 +42432,7 @@ this.EV()},
 EV(){var s,r=this
 r.al(new A.acp(r))
 s=r.f
-A.aoD("http://environment.data.gov.uk/flood-monitoring/id/stations",A.aJ([B.J4,"level",B.J2,s==null?"":s],t.xg,t.N)).c6(new A.acq(r),t.P)},
+A.aoD("https://environment.data.gov.uk/flood-monitoring/id/stations",A.aJ([B.J4,"level",B.J2,s==null?"":s],t.xg,t.N)).c6(new A.acq(r),t.P)},
 R(a){var s=this,r=null,q=A.S(a).p3.b
 return new A.yc(A.eW(r,A.px(A.dV(A.v0(A.a([new A.yp("search for station (case sensitive)",B.CS,new A.acl(s),new A.acm(s),B.H5,r),B.L0,A.dm("All stations",r,r,r,q==null?r:q.nr(5),r,r),B.L1,A.dm("Click on a station name to view station's water level readings for the past 24 hours!",r,r,r,A.S(a).p3.y,r,r),B.L_,new A.vT(1,B.CB,new A.KP(s.e,new A.acn(s),r),r),new A.wE(s.d,r)],t.F),B.bH,B.bQ,B.ce),r,r),r,r),B.y,r,r,r,r,r,B.Cg,r),r)}}
 A.acp.prototype={
@@ -42475,7 +42475,7 @@ this.ah1()},
 ah1(){var s,r=this
 r.al(new A.aek(r))
 if(r.a.c!=null){s=A.akx(Date.now()-864e5,!1)
-A.aoD("http://environment.data.gov.uk/flood-monitoring/id/stations/"+r.a.c.a+"/readings",A.aJ([B.J3,A.aoA("yyyy-MM-ddTHH:mm:ss").r1(s)+"Z"],t.xg,t.N)).c6(new A.ael(r),t.P)}},
+A.aoD("https://environment.data.gov.uk/flood-monitoring/id/stations/"+r.a.c.a+"/readings",A.aJ([B.J3,A.aoA("yyyy-MM-ddTHH:mm:ss").r1(s)+"Z"],t.xg,t.N)).c6(new A.ael(r),t.P)}},
 R(a){var s,r,q=this,p=null
 if(q.a.c==null)return A.eW(p,p,B.y,p,p,p,p,p,p,p)
 s=q.d
